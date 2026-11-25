@@ -1,0 +1,17 @@
+# Local development
+.DS_Store
+.idea/
+.env
+.env.local
+.env.*.local
+
+# Go builds and release packages
+/shiftsec-collector
+/bin/
+/dist/
+/*.deb
+
+# Go test binaries and coverage reports
+*.test
+/coverage.out
+/coverage.html
